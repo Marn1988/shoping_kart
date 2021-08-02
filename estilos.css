@@ -68,23 +68,44 @@ background: rgba(0, 0, 0, 0.2);
     width: 100px;
     max-width: 100%;    
     margin: auto;
-    /*margin-left: 20px;
+   margin-left: 20px;
     margin-top: 30px;
-    padding: 20px;*/
+    padding: 20px;
     box-shadow: 0 0 20px 1px rgba(0,0,0,0.3); /*ver variaciones*/
    
     
 
 }
+.main_container{
+    width: 100px;
+    max-width: 100%;    
+    margin: auto;
+   margin-left: 20px;
+    margin-top: 30px;
+    padding: 20px;
+    /*box-shadow: 0 0 20px 1px rgba(0,0,0,0.3); /*ver variaciones*/ 
+   
+
+    
+}
 .price_sum{
    
     /*width: 100px;*/
-    max-width: 100%;
-    margin: auto;
-    margin-left: 20px;
+
+    
+    /*margin: auto;
+    margin-right: 20px;
     margin-top: 30px;
-    padding: 20px;
-    box-shadow: 0 0 20px 1px rgba(0,0,0,0.3); 
-    position: fixed;
+    padding: 20px;*/
+    box-shadow: 0 0 20px 1px rgba(0,0,0,0.3); /*ver variaciones*/
+    position: sticky;
+    top: 0;
+    height:0;
+    width: 0;
+
+   /* width: 70vw; 
+    height: 50vh;*/
+    
+   
 
 }
