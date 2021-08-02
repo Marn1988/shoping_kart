@@ -68,10 +68,11 @@ background: rgba(0, 0, 0, 0.2);
     width: 100px;
     max-width: 100%;    
     margin: auto;
-   margin-left: 20px;
+    margin-left: 20px;
     margin-top: 30px;
     padding: 20px;
     box-shadow: 0 0 20px 1px rgba(0,0,0,0.3); /*ver variaciones*/
+    background:rgba(0, 0, 0, 0.8)
    
     
 
@@ -80,19 +81,18 @@ background: rgba(0, 0, 0, 0.2);
     width: 100px;
     max-width: 100%;    
     margin: auto;
-   margin-left: 20px;
+    margin-left: 0px;
     margin-top: 30px;
     padding: 20px;
     /*box-shadow: 0 0 20px 1px rgba(0,0,0,0.3); /*ver variaciones*/ 
+
    
 
     
 }
 .price_sum{
    
-    /*width: 100px;*/
-
-    
+    /*width: 100px;*/  
     /*margin: auto;
     margin-right: 20px;
     margin-top: 30px;
@@ -107,5 +107,18 @@ background: rgba(0, 0, 0, 0.2);
     height: 50vh;*/
     
    
+
+}
+.bg{
+    background-image: url(background.jpg);
+    background-size: 100%;
+     z-index: -10000;
+     max-width: 100%;
+    height: auto;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x:hidden ;
+    background-attachment:scroll;
 
 }
